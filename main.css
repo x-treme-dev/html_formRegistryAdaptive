@@ -45,7 +45,7 @@ body{
 
 .form__input{
    height: 35px;
-   width:28vw;
+   width:21vw;
    margin-top:3%;
 }
 
@@ -92,7 +92,6 @@ body{
     }
 
 }
-
 
 @media (max-width:699px){
     .form__row:not(:last-child){
