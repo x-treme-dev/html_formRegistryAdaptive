@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Form</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="header">
+                <h1 class="header__h1">РЕГИСТРАЦИЯ</h1>
+                <div class="header__buttons">
+                    <button class="header__button">Регистрация</button>
+                    <button class="header__button">Восстановление пароля</button>
+                </div>
+            </div>
+        </header>
+          <form action="/" method="POST" class="form">
+            <div class="form__row">
+                <label for="" class="form__label">Email*
+                    <input type="email" class="form__input" placeholder="Email">
+                </label> 
+                <label for="" class="form__label">Пароль*
+                    <input type="password" class="form__input" placeholder="Пароль">
+                </label> 
+                <label for="" class="form__label">Подтверждение пароля*
+                    <input type="password" class="form__input" placeholder="Подтверждение пароля">
+                </label> 
+            </div>
+           
+            <div class="form__row">
+            <label for="" class="form__label">Ник*
+                <input type="text" class="form__input" placeholder="ivan">
+            </label> 
+            <label for="" class="form__label">Телефон
+                <input type="number" class="form__input" placeholder="+7(978)777-77-77">
+            </label> 
+            <label for="" class="form__label">Фамилия
+                <input type="text" class="form__input" placeholder="Иванов">
+            </label> 
+            </div>
+            <div class="form__row">
+            <label for="" class="form__label">Имя
+                <input type="text" class="form__input" placeholder="Иван">
+            </label> 
+            <label for="" class="form__label">Отчество
+                <input type="text" class="form__input" placeholder="Иванович">
+            </label> 
+            <label class="form__label">
+                <legend>Пол*</legend>
+                <div class="form__row">
+                <input type="radio" name="sex" class="form__check">Мужской
+                <input type="radio" name="sex" class="form__check">Женский 
+                </div>
+            </label>
+             </div>
+            <div class="form__bottom">
+                <div class="form__text">
+                    <p class="form__p">Нажимая на кнопку "Зарегистрироваться", Вы соглашаетесь с принятой на сайте </p>
+                    <p class="form__p"><a href="" class="form__a">политикой обработки персональных данных</a> и <a href="" class="form__a"> правилами покупки билетов</a></p>
+                </div>
+                <button class="form__button" type="submit">Зарегистрироваться</button>
+            </div>
+          
+          </form>  
+    </div>
+</body>
+</html>
